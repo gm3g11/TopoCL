@@ -7,9 +7,7 @@ TopoCL is a 3-stage pipeline that combines visual features with topological desc
 ## Pipeline Overview
 
 <p align="center">
-  <a href="assets/TopoSSL_final.pdf">
-    <img src="assets/TopoSSL_final.pdf" width="100%" alt="TopoCL Pipeline"/>
-  </a>
+  <img src="assets/TopoCL_workflow.png" width="100%" alt="TopoCL Pipeline"/>
 </p>
 
 1. **Stage 1 - Visual Pretraining**: Self-supervised pretraining of a ResNet-50 backbone using 5 SSL methods (SimCLR, MoCo-v3, BYOL, Barlow Twins, DINO)

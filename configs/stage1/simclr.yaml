@@ -1,0 +1,10 @@
+method: simclr
+batch_size: 512
+epochs: 200
+lr: 3e-3
+weight_decay: 1e-4
+temperature: 0.5
+proj_hidden: 2048
+proj_out: 128
+warmup_epochs: 10
+img_size: 224

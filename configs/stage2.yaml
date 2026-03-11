@@ -1,0 +1,10 @@
+hidden_dim: 384
+num_heads: 4
+dropout: 0.15
+n_h0: 48
+n_h1: 96
+batch_size: 64
+lr: 1e-3
+weight_decay: 1e-4
+epochs: 100
+method: supervised_ce

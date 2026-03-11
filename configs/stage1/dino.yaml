@@ -1,0 +1,14 @@
+method: dino
+batch_size: 256
+epochs: 100
+lr: 5e-4
+weight_decay: 0.04
+teacher_temp: 0.04
+student_temp: 0.1
+proj_hidden: 2048
+proj_out: 65536
+bottleneck_dim: 256
+momentum: 0.996
+warmup_epochs: 10
+n_local_crops: 8
+img_size: 224

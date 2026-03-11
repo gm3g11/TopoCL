@@ -1,0 +1,11 @@
+method: barlow
+batch_size: 256
+epochs: 100
+lr: 1e-3
+weight_decay: 1e-6
+proj_hidden: 2048
+proj_out: 512
+lambd: 0.005
+img_size: 224
+# Note: Barlow uses CosineAnnealingLR (no warmup)
+# Note: LR is reduced by 0.3x for small datasets (<10k samples)

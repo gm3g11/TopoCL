@@ -1,0 +1,27 @@
+hidden_dim: 384
+num_heads: 4
+dropout: 0.15
+n_h0: 48
+n_h1: 96
+embed_dim: 256
+fusion_embed_dim: 512
+proj_dim: 256
+
+lr_img: 1e-5
+lr_topo: 2e-4
+lr_fusion: 5e-4
+weight_decay: 1e-4
+
+temperature: 0.2
+moco_m: 0.996
+
+balance_coef: 0.015
+balance_low: 0.05
+balance_high: 0.5
+
+batch_size: 256
+epochs: 150
+grad_clip: 1.0
+probe_freq: 30
+monitor_freq: 20
+early_stop_patience: 40

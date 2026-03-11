@@ -1,0 +1,44 @@
+# Checkpoints and model weights
+*.pt
+*.pth
+*.npz
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+*.egg
+dist/
+build/
+.eggs/
+
+# Results and outputs
+stage*_results/
+checkpoints*/
+linear_probe_results/
+debug_runs/
+
+# SLURM logs
+*.o*
+*.e*
+
+# Generated figures
+*.pdf
+
+# Data
+data/
+
+# Experiment tracking
+wandb/
+runs/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db

@@ -1,0 +1,10 @@
+method: byol
+batch_size: 256
+epochs: 100
+lr: 3e-4
+weight_decay: 1.5e-6
+proj_hidden: 4096
+proj_out: 256
+momentum: 0.99
+warmup_epochs: 10
+img_size: 224

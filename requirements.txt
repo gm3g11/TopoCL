@@ -1,0 +1,17 @@
+torch>=2.0
+torchvision
+numpy
+scipy
+scikit-learn
+scikit-image
+tqdm
+medmnist
+cripser
+gudhi
+Pillow
+pyyaml
+pytorch-grad-cam
+fvcore
+matplotlib
+seaborn
+opencv-python

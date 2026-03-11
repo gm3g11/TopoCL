@@ -1,0 +1,41 @@
+# TopoCL Checkpoint Paths Configuration
+# Replace these paths with your actual checkpoint locations
+
+stage1:
+  kvasir:
+    simclr: checkpoints/stage1/simclr_kvasir_224_encoder_best.pt
+    byol: checkpoints/stage1/byol_kvasir_encoder_best.pt
+    dino: checkpoints/stage1/dino_kvasir_224_encoder_best.pt
+    barlow: checkpoints/stage1/barlow_kvasir_encoder_best.pt
+    mocov3: checkpoints/stage1/mocov3_kvasir_encoder_best.pt
+  pathmnist:
+    simclr: checkpoints/stage1/simclr_pathmnist_224_encoder_best.pt
+    byol: checkpoints/stage1/byol_pathmnist_encoder_best.pt
+    dino: checkpoints/stage1/dino_pathmnist_224_encoder_best.pt
+    barlow: checkpoints/stage1/barlow_pathmnist_encoder_best.pt
+    mocov3: checkpoints/stage1/mocov3_pathmnist_encoder_best.pt
+  octmnist:
+    simclr: checkpoints/stage1/simclr_octmnist_224_encoder_best.pt
+    byol: checkpoints/stage1/byol_octmnist_encoder_best.pt
+    dino: checkpoints/stage1/dino_octmnist_224_encoder_best.pt
+    barlow: checkpoints/stage1/barlow_octmnist_encoder_best.pt
+    mocov3: checkpoints/stage1/mocov3_octmnist_encoder_best.pt
+  organsmnist:
+    simclr: checkpoints/stage1/simclr_organsmnist_224_encoder_best.pt
+    byol: checkpoints/stage1/byol_organsmnist_encoder_best.pt
+    dino: checkpoints/stage1/dino_organsmnist_224_encoder_best.pt
+    barlow: checkpoints/stage1/barlow_organsmnist_encoder_best.pt
+    mocov3: checkpoints/stage1/mocov3_organsmnist_encoder_best.pt
+  isic2019:
+    simclr: checkpoints/stage1/simclr_isic2019_224_encoder_best.pt
+    byol: checkpoints/stage1/byol_isic2019_encoder_best.pt
+    dino: checkpoints/stage1/dino_isic2019_224_encoder_best.pt
+    barlow: checkpoints/stage1/barlow_isic2019_encoder_best.pt
+    mocov3: checkpoints/stage1/mocov3_isic2019_encoder_best.pt
+
+stage2:
+  kvasir: checkpoints/stage2/kvasir/best_model.pt
+  pathmnist: checkpoints/stage2/pathmnist/best_model.pt
+  octmnist: checkpoints/stage2/octmnist/best_model.pt
+  organsmnist: checkpoints/stage2/organsmnist/best_model.pt
+  isic2019: checkpoints/stage2/isic2019/best_model.pt

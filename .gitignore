@@ -25,6 +25,7 @@ debug_runs/
 
 # Generated figures
 *.pdf
+!assets/*.pdf
 
 # Data
 data/
